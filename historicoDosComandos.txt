@@ -1,0 +1,32 @@
+    1  cd Git
+    2  cd git
+    3  cd c/repositoriosGIT
+    4  cd c:/repositoriosGIT
+    5  cd SistemaExtensao
+    6  git init
+    7  git status
+    8  git add readme.txt
+    9  git status
+   10  git commit -m "arquivo inicial do sistema"
+   11  git config --global user.email "gabrieln.nunes@yahoo.com.br"
+   12  git config --global user.name "gabrielNNunes"
+   13  git status
+   14  cd c:
+   15  list -d
+   16  ls
+   17  cd d:
+   18  ls
+   19  cd c:
+   20  ls
+   21  cd repositoriosGIT/
+   22  ls
+   23  cd SistemaExtensao/
+   24  git status
+   25  git add readme.txt
+   26  git commit -m "arquivo inicial de novo"
+   27  git remote add origin https://github.com/gabrielNNunes/SistemasExtensao.git
+   28  git oush origin master
+   29  git push origin master
+   30  vi readme.txt 
+   31  git commit -m "segundo commit"
+   32  history >historicoDosComandos.txt
